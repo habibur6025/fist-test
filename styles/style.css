@@ -59,7 +59,7 @@ display: flex;
 }
 .box-content{
 
-    width: 407px;
+    width:50%;
 }
 .box-content p{
     color: rgba(14, 14, 14, 0.5);
@@ -70,10 +70,13 @@ display: flex;
     margin-bottom: 20px;
 }
 .box-content1{
-    width: 407px;
+    width:50%;
+    display: flex;
+    justify-content:center;
 } 
 .box-content1 img{
-    width: 407px;
+    
+
 }
 .box-content button{
     display: flex;
@@ -104,6 +107,7 @@ display: flex;
     display: flex;
     margin-top: 20px;
     gap: 10px;
+    width: 100%;
     
 }
 .card1{
@@ -112,7 +116,7 @@ box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 10px;
 height: 244px;
-width: 296.5px;
+width:25%;
 
 background:wheat;
 } 
@@ -132,7 +136,7 @@ margin-bottom: 20px;
         border: 1px solid rgba(14, 14, 14, 0.15);
         border-radius: 10px;
         height: 244px;
-        width: 296.5px;
+        width:25%;
         
         background:wheat;
         } 
@@ -152,7 +156,7 @@ margin-bottom: 20px;
                 border: 1px solid rgba(14, 14, 14, 0.15);
                 border-radius: 10px;
                 height: 244px;
-                width: 296.5px;
+                width:25%;
                 
                 background:wheat;
                 } 
@@ -172,7 +176,7 @@ margin-bottom: 20px;
                         border: 1px solid rgba(14, 14, 14, 0.15);
                         border-radius: 10px;
                         height: 244px;
-                        width: 296.5px;
+                        width:25%;
                         
                         background:wheat;
                         } 
@@ -212,6 +216,7 @@ margin-bottom: 20px;
                             display: flex;
                             margin-top: 20px;
                             gap: 10px;
+                            width: 100%;
                             
                         }
                         .carda{
@@ -220,7 +225,7 @@ margin-bottom: 20px;
                         border: 1px solid rgba(14, 14, 14, 0.15);
                         border-radius: 10px;
                         height: 325px;
-                        width: 398px;
+                        width:33.3%;
                         
                         background: rgba(84, 144, 245, 0.2);
                         } 
@@ -236,7 +241,7 @@ margin-bottom: 20px;
                                 border: 1px solid rgba(14, 14, 14, 0.15);
                                 border-radius: 10px;
                                 height: 325px;
-                                width: 398px;
+                                width:33.3%;
                                 
                                 background: rgb(198, 228, 214)}
                                 .cardb img,h3,p{
@@ -251,9 +256,7 @@ margin-bottom: 20px;
                                         border: 1px solid rgba(14, 14, 14, 0.15);
                                         border-radius: 10px;
                                         height: 325px;
-                                        width: 398px;
-                                        box-sizing: border-box;
-                                        border-radius: 16px;
+                                        width: 33.3%;
 
                                         background: rgb(247, 235, 207);
                                         } 
@@ -360,19 +363,24 @@ height: 48px;
     padding: 48px;
     border-radius: 24px;
     background-color:wheat;
+    width: 100%;
   }
   .main-im{
 
     height: 306px;
-    width: 408px;
+    width:50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
   }
   .main-im img{
 
     border-radius: 20px;
   }
+.main-text{
+
+    width: 50%;
+}
+
   .date{
 
     margin-top: 20px;
@@ -388,6 +396,19 @@ height: 48px;
 
 background: rgb(0, 106, 80);
 }
+.main-im1{
+    height: 306px;
+    width:50%;
+    display: flex;
+    justify-content:right;
+
+
+}
+.main-im1 img{
+
+    border-radius: 20px;
+}
+
 .final{
     display: flex;
     width: 100%;
@@ -399,6 +420,7 @@ background: rgb(0, 106, 80);
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: aqua;
     
 }
 .title-text{
@@ -412,31 +434,36 @@ margin-bottom: 24px;
 .final-p{
 display: flex;
 height: 48px;
+background-color: blue;
 
 }
 .final-card{
 display: flex;
 gap: 20px;
 height: 130px;
-justify-content: center;
+
 margin-top: 50px;
 margin-bottom: 50px;
+width:100%;
+background: red;
+
 
 }
 .taka{
 display: flex;
 height: 120px;
-width: 236px;
+width: 25%;
 border: 1px solid wheat;
 border-radius: 10px;
 justify-content: center;
 align-items: center;
+margin-left: 100px;
 }
 
 .taka2{
     display: flex;
     height: 120px;
-    width: 236px;
+    width: 25%;
     border: 1px solid wheat;
     border-radius: 10px;
     justify-content: center;
@@ -449,7 +476,7 @@ background-color: rgb(198, 228, 214);
     .taka3{
         display: flex;
         height: 120px;
-        width: 236px;
+        width: 25%;
         border: 1px solid wheat;
         border-radius: 10px;
         justify-content: center;
@@ -462,11 +489,13 @@ align-items: center;
         .taka4{
             display: flex;
             height: 120px;
-            width: 236px;
+            width: 25%;
             border: 1px solid wheat;
             border-radius: 10px;
             justify-content: center;
 align-items: center;
+margin-right: 100px;
+
 }
 
 .final-card :hover{

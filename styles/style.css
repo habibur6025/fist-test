@@ -420,7 +420,8 @@ background: rgb(0, 106, 80);
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: aqua;
+    background-color: whitesmoke;
+    
     
 }
 .title-text{
@@ -434,7 +435,7 @@ margin-bottom: 24px;
 .final-p{
 display: flex;
 height: 48px;
-background-color: blue;
+
 
 }
 .final-card{
@@ -445,7 +446,7 @@ height: 130px;
 margin-top: 50px;
 margin-bottom: 50px;
 width:100%;
-background: red;
+
 
 
 }
